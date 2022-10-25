@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu&display=swap");
+.btn-main, .btn-sec, .btn-sec-s, .btn-main-s {
+  background-color: #0075ff;
+  color: white;
+  border: solid 1px #0075ff;
+  padding: 0.3rem 1rem;
+  border-radius: 4px;
+}
+.btn-main:hover, .btn-sec:hover, .btn-sec-s:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075ff;
+  border: solid 1px #0075ff;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  color: black;
+  background-color: transparent;
+  border: none;
+  padding: 0.3rem 1rem;
+  border-radius: 4px;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #0075ff;
+  border: none;
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+  height: 100%;
+}
+.main-menu li {
+  list-style: none;
+  display: inline;
+  font-size: 1rem;
+  margin: 0 18px;
+}
+.main-menu li:hover {
+  border-bottom: solid 2px #0075ff;
+  cursor: pointer;
+}
+
+.icon-sm i {
+  font-size: 0.75rem;
+  color: #0075ff;
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.433);
+}
+
+.feature {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075ff;
+  font-size: 10rem;
+}
+.feature .description .title {
+  font-size: 2rem;
+}
+.feature .description .text {
+  color: #555;
+}
+.feature .cta {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #0075ff;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  color: #0075ff;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.sec-cta .cta-00 {
+  display: flex;
+}
+.sec-cta .cta-00 .cta-LeftSection {
+  width: 500px;
+  margin: 20px 30px;
+}
+.sec-cta .cta-00 .cta-LeftSection h1 {
+  font-size: 4rem;
+}
+.sec-cta .cta-00 .cta-LeftSection .frm-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sec-cta .cta-00 .cta-RightSection .movil-img {
+  height: 650px;
+  margin-left: 200px;
+}
+
+.sec-features {
+  margin-top: 50px;
+  border-bottom: solid 1px rgb(223, 223, 223);
+}
+.sec-features .features-text .features-title {
+  font-size: 40px;
+}
+.sec-features .features-text .features-paragraph {
+  font-size: 18px;
+  color: rgb(91, 97, 110);
+}
+.sec-features .features {
+  display: flex;
+}
+.sec-features .features .features-LeftSection {
+  display: flex;
+  flex-direction: column;
+}
+.sec-features .features .features-LeftSection .features-column {
+  display: flex;
+  margin: 15px 0;
+}
+.sec-features .features .features-LeftSection .features-column .features-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.sec-features .features .features-LeftSection .features-column .features-icon .img-icon-features {
+  width: 40px;
+  height: 40px;
+}
+.sec-features .features .features-LeftSection .features-column .features-list {
+  margin-left: 30px;
+}
+.sec-features .features .features-LeftSection .features-column .features-list-title {
+  font-size: 20px;
+}
+.sec-features .features .features-LeftSection .features-column .features-list-paragraph {
+  color: rgb(91, 97, 110);
+}
+.sec-features .features .features-RightSection .img-coinbase-app {
+  width: 45rem;
+}
+
+.sec-benefits {
+  margin-top: 80px;
+}
+.sec-benefits .benefits-text-title {
+  font-size: 40px;
+}
+.sec-benefits .benefits-text-paragraph {
+  font-size: 18px;
+  color: rgb(91, 97, 110);
+}
+.sec-benefits .benefits-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sec-benefits .benefits-section .benefits-LeftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 355px;
+}
+.sec-benefits .benefits-section .benefits-CenterSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 355px;
+}
+.sec-benefits .benefits-section .benefits-RightSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 355px;
+}
+.sec-benefits .benefits-section-text-title {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.sec-benefits .benefits-section-text-paragraph {
+  font-size: 16px;
+  color: rgb(91, 97, 110);
+  margin-bottom: 80px;
+  height: 40px;
+}
+.sec-benefits .benefits-img {
+  width: 64px;
+  height: 64px;
+}
+
+.sec-stats {
+  margin-top: 100px;
+}
+.sec-stats .stats {
+  background-color: #0075ff;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 250px;
+  align-items: center;
+}
+.sec-stats .stats-N {
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  font-size: 56px;
+}
+.sec-stats .stats-text {
+  color: white;
+  opacity: 0.7;
+}
+
+.sec-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.sec-nav .logo .img-logo {
+  width: 112px;
+  height: 20px;
+}
+
+.start-btn {
+  padding-bottom: 5px;
+}
+
+.img-logo-cripto {
+  width: 35px;
+  height: 35px;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: solid 1px rgb(223, 223, 223);
+}
+
+.link {
+  color: #0075ff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
